@@ -11,7 +11,7 @@ export default function Login() {
   return (
     <div id="login-container">
       <div className="content-wrapper">
-        <p style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>¡Bienvenido a tu Trabajo Italiano!</p>
+        <p style={{ fontSize: '2rem', fontWeight: 'bold', color: '#333' }}>¡Bienvenido al cuestionario de nuestra presentación!</p>
         <div className="input-container">
           <TextField id="outlined-basic" label="Nombre y Apellido" variant="outlined" fullWidth />
         </div>

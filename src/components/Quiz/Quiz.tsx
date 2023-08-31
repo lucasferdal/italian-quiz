@@ -83,7 +83,7 @@ const Quiz: React.FC = () => {
       </div>
       <Modal open={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <div id="modal-content">
-          <p>¿Estás seguro/a de que quieres finalizar el cuestionario? No podrás volver a realizarlo nunca más (¡eso es mucho tiempo!)</p>
+          <p>¿Estás seguro/a de que quieres finalizar el cuestionario? No podrás volver a realizarlo nunca más (eso es mucho tiempo)</p>
           <div id='modalButtonContent'>
             <Button variant="contained" onClick={() => setIsModalOpen(false)}>Volver</Button>
             <Button variant="contained" onClick={() => navigate('/results')}>Finalizar</Button>
