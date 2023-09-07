@@ -6,13 +6,13 @@ export const questions = [
   },
   {
     questionText: '¿Cuál ciudad NO fue nombrada?',
-    options: ['Milán', 'Bolonia', 'Sicilia', 'Verona'],
+    options: ['Napoles', 'Bolonia', 'Sicilia', 'Siena'],
     correctOption: 'Bolonia'
   },
   {
-    questionText: '¿Cuál es la primera ciudad que se quiere visitar?',
-    options: ['Roma', 'Milán', 'Venecia', 'Florencia'],
-    correctOption: 'Milán'
+    questionText: '¿Cuál es la primera region que se quiere visitar?',
+    options: ['Roma', 'Cinque Terre', 'Venecia', 'Florencia'],
+    correctOption: 'Cinque Terre'
   },
   {
     questionText: '¿Cuál de los siguientes lugares turísticos se encuentran en "Cinque Terre"?',
@@ -35,9 +35,9 @@ export const questions = [
     correctOption: 'En la isla de Sicilia'
   },
   {
-    questionText: '¿Qué se sugiere que se pueda hacer en Verona?',
-    options: ['Visitar el Louvre', 'Explorar las playas de Miami', 'Hacer un recorrido en barco por el río Sena', 'Hacer una excursión a las bodegas de Valpolicella'],
-    correctOption: 'Hacer una excursión a las bodegas de Valpolicella'
+    questionText: '¿Qué se sugiere que se pueda hacer en Siena?',
+    options: ['Visitar la Catedral de Siena', 'Explorar el centro histórico de Torima', 'Probar la comida toscana', 'Visitar el Museo Civico'],
+    correctOption: 'Probar la comida toscana'
   },
   {
     questionText: '¿Qué recomendación importante se menciona sobre Cinque Terre antes del viaje?',
@@ -45,14 +45,14 @@ export const questions = [
     correctOption: 'Respetar el ambiente natural'
   },
   {
-    questionText: '¿Qué plato tradicional se menciona como recomendación en Milán?',
-    options: ['Pizza margarita', 'Pasta bolognesa', 'Cotoletta alla milanese', 'Risotto al pesto'],
-    correctOption: 'Cotoletta alla milanese'
+    questionText: '¿De que ciudad italiana era el compositor Ferdinando Carulli?',
+    options: ['Cinque Terre', 'Roma', 'Napoles', 'New york'],
+    correctOption: 'Napoles'
   },
   {
-    questionText: '¿Qué se menciona como una atracción en Verona?',
-    options: ['La casa de Julieta', 'El Coliseo', 'El teatro griego', 'La Torre Eiffel'],
-    correctOption: 'La casa de Julieta'
+    questionText: 'Durante cuáles meses del año Taormina tiende a ser más concurrida según la conversación?',
+    options: ['Julio y Agosto', 'Enero y Febrero', 'Septiembre y Octubre', 'Noviembre y Diciembre'],
+    correctOption: 'Julio y Agosto'
   },
   {
     questionText: '¿Qué se menciona como una característica importante de Siena?',
