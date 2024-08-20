@@ -1,62 +1,52 @@
 export const questions = [
   {
-    questionText: '¿Sobre qué trataba la presentación?',
-    options: ['Agencia de viajes a Italia', 'Agencia de viajes a Marte', 'Venta de autos usados', 'Emigración a Uruguay'],
-    correctOption: 'Agencia de viajes a Italia'
-  },
-  {
-    questionText: '¿Cuál ciudad NO fue nombrada?',
-    options: ['Napoles', 'Bolonia', 'Sicilia', 'Siena'],
-    correctOption: 'Bolonia'
-  },
-  {
-    questionText: '¿Cuál es la primera region que se quiere visitar?',
-    options: ['Roma', 'Cinque Terre', 'Venecia', 'Florencia'],
+    questionText: '¿Cuál es la primera región que desea visitar la persona interesada?',
+    options: ['Roma', 'Cinque Terre', 'Milán', 'Venecia'],
     correctOption: 'Cinque Terre'
   },
   {
-    questionText: '¿Cuál de los siguientes lugares turísticos se encuentran en "Cinque Terre"?',
-    options: ['El teatro Griego', 'Museo Civico', 'Los techitos verdes', 'Vernazza'],
-    correctOption: 'Vernazza'
-  },
-  {
-    questionText: '¿Qué característica se menciona sobre la Catedral de Siena?',
-    options: ['Tiene una fachada de mármol blanco y negro', 'Es la catedral más antigua de Italia', 'Tiene una torre inclinada', 'Está ubicada en el centro de Roma'],
-    correctOption: 'Tiene una fachada de mármol blanco y negro'
-  },
-  {
-    questionText: '¿Cuántos pueblos componen Cinque Terre?',
-    options: ['Tres pueblos', 'Cinco pueblos', 'Siete pueblos', 'Dos pueblos'],
+    questionText: '¿Cuántos pueblos componen la región de Cinque Terre?',
+    options: ['Tres pueblos', 'Cuatro pueblos', 'Cinco pueblos', 'Seis pueblos'],
     correctOption: 'Cinco pueblos'
   },
   {
-    questionText: '¿Dónde se encuentra Taormina?',
-    options: ['En la costa de Francia', 'En la región de Toscana', 'En la isla de Sicilia', 'En el norte de Italia'],
-    correctOption: 'En la isla de Sicilia'
+    questionText: '¿Cuál es una característica especial de Vernazza mencionada en la conversación?',
+    options: ['Un castillo en la montaña', 'Una fiesta con fuegos artificiales', 'Un túnel en la roca', 'Una playa exclusiva'],
+    correctOption: 'Una fiesta con fuegos artificiales'
   },
   {
-    questionText: '¿Qué se sugiere que se pueda hacer en Siena?',
-    options: ['Visitar la Catedral de Siena', 'Explorar el centro histórico de Torima', 'Probar la comida toscana', 'Visitar el Museo Civico'],
-    correctOption: 'Probar la comida toscana'
-  },
-  {
-    questionText: '¿Qué recomendación importante se menciona sobre Cinque Terre antes del viaje?',
-    options: ['Llevar ropa de invierno', 'Respetar el ambiente natural', 'Comer solo en restaurantes caros', 'Viajar sin una guía turística'],
+    questionText: '¿Qué recomienda el agente de viajes respecto a la visita a Cinque Terre?',
+    options: ['Probar la gastronomía local', 'Respetar el ambiente natural', 'Viajar en invierno', 'Evitar las playas'],
     correctOption: 'Respetar el ambiente natural'
   },
   {
-    questionText: '¿De que ciudad italiana era el compositor Ferdinando Carulli?',
-    options: ['Cinque Terre', 'Roma', 'Napoles', 'New york'],
-    correctOption: 'Napoles'
+    questionText: '¿Qué plato es famoso en Milán según la conversación?',
+    options: ['Pasta carbonara', 'Pizza margherita', 'Cotoletta alla milanese', 'Tiramisú'],
+    correctOption: 'Cotoletta alla milanese'
   },
   {
-    questionText: 'Durante cuáles meses del año Taormina tiende a ser más concurrida según la conversación?',
-    options: ['Julio y Agosto', 'Enero y Febrero', 'Septiembre y Octubre', 'Noviembre y Diciembre'],
-    correctOption: 'Julio y Agosto'
+    questionText: '¿Qué sitios turísticos se mencionan en Milán?',
+    options: ['Coliseo y Torre Eiffel', 'Galería Vittorio Emanuele II y funicular Como-Brunate', 'Duomo y Torre inclinada', 'Canales de Venecia y Coliseo'],
+    correctOption: 'Galería Vittorio Emanuele II y funicular Como-Brunate'
   },
   {
-    questionText: '¿Qué se menciona como una característica importante de Siena?',
-    options: ['Sus rascacielos modernos', 'Su arquitectura futurista', 'Su casco antiguo medieval', 'Su vida nocturna animada'],
-    correctOption: 'Su casco antiguo medieval'
+    questionText: '¿En qué ciudad nació Ferdinando Carulli?',
+    options: ['Roma', 'Nápoles', 'Milán', 'Venecia'],
+    correctOption: 'Nápoles'
+  },
+  {
+    questionText: '¿Cuál es una característica especial de Venecia mencionada en la conversación?',
+    options: ['Está construida sobre una estructura de madera', 'Tiene un volcán activo', 'Es conocida por sus rascacielos', 'Es la ciudad más grande de Italia'],
+    correctOption: 'Está construida sobre una estructura de madera'
+  },
+  {
+    questionText: '¿Qué incluye la excursión a Murano, Burano y Torcello?',
+    options: ['Desayuno', 'Almuerzo', 'Cena', 'Ninguna comida'],
+    correctOption: 'Ninguna comida'
+  },
+  {
+    questionText: '¿Cuánto cuesta el paquete completo del viaje según la conversación?',
+    options: ['200 euros', '325 euros', '400 euros', '500 euros'],
+    correctOption: '325 euros'
   }
 ];
